@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-row gap-8 justify-center">
    <div class="flex items-center">
-     <div class="text-center bg-gray-200 text-4xl p-2 rounded-full shadow-lg rotate-6">
-       <font-awesome-icon :icon="['fas', 'cookie-bite']" size="2xl" />
+     <div class="text-center bg-gray-200 text-4xl p-2 rounded-full shadow-lg">
+        <img src="/logos/ycnews.png" class="h-full w-full rounded-full" />
      </div>
    </div>
    <div>

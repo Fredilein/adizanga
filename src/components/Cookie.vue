@@ -11,8 +11,8 @@
      </div>
    </div>
    <div class="flex items-center">
-     <div class="text-center bg-gray-200 text-4xl p-2 rounded-full shadow-lg rotate-6">
-       <font-awesome-icon :icon="['fas', 'cookie-bite']" size="2xl" />
+     <div class="text-center bg-gray-200 text-4xl p-2 rounded-full shadow-lg">
+        <img src="/logos/cookieaudit.png" class="p-1" />
      </div>
    </div>
   </div>
