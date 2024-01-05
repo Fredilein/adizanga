@@ -33,4 +33,26 @@ import Ycnews from './components/Ycnews.vue'
       </div>
     </div>
   </div>
+  <div class="pagesection bg-violet-300">
+    <div class="section-content">
+      <div class="section-title">Contact me</div>
+      <div class="flex flex-wrap gap-8 items-center justify-center">
+       <div class="text-center bg-gray-200 text-4xl p-2 rounded-full shadow-lg">
+         <a href="https://www.github.com/fredilein" target="_blank">
+           <font-awesome-icon :icon="['fab', 'github']" size="2xl" />
+         </a>
+       </div>
+       <div class="text-center bg-gray-200 text-4xl p-2 rounded-full shadow-lg">
+         <a href="https://www.t.me/adi_z" target="_blank">
+           <font-awesome-icon :icon="['fab', 'telegram']" size="2xl" />
+         </a>
+       </div>
+       <div class="text-center bg-gray-200 text-4xl p-2 rounded-full shadow-lg">
+         <a href="mailto:zanga.adi@gmail.com" target="_blank">
+           <font-awesome-icon :icon="['fas', 'at']" size="2xl" />
+         </a>
+       </div>
+      </div>
+    </div>
+  </div>
 </template>

@@ -8,10 +8,10 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-import { faPython, faSquareJs, faJava, faGolang, faRust, faVuejs } from '@fortawesome/free-brands-svg-icons'
-import { faC, faDatabase, faDumbbell, faFutbol, faWind, faCookieBite } from '@fortawesome/free-solid-svg-icons'
+import { faPython, faSquareJs, faJava, faGolang, faRust, faVuejs, faGithub, faTelegram } from '@fortawesome/free-brands-svg-icons'
+import { faC, faDatabase, faDumbbell, faFutbol, faWind, faCookieBite, faEnvelope, faAt } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faPython, faSquareJs, faJava, faGolang, faRust, faC, faDatabase, faDumbbell, faFutbol, faVuejs, faWind, faCookieBite)
+library.add(faPython, faSquareJs, faJava, faGolang, faRust, faC, faDatabase, faDumbbell, faFutbol, faVuejs, faWind, faCookieBite, faGithub, faTelegram, faEnvelope, faAt)
 
 createApp(App)
 .component('font-awesome-icon', FontAwesomeIcon)
