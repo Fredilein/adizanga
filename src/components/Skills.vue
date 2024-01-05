@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div class="w-full flex justify-center items-center">
-      <div class="bg-orange-600 text-gray-950 rounded-xl p-4 -mt-24 rotate-6 h-20 w-20 flex items-center justify-center">
+      <div class="bg-indigo-500 text-gray-950 rounded-xl p-4 -mt-24 rotate-6 h-20 w-20 flex items-center justify-center">
         <font-awesome-icon :icon="['fas', 'dumbbell']" size="2xl" class="text-4xl text-center" />
       </div>
       <div class="bg-gray-50 text-gray-950 p-4 text-2xl font-bold rounded-xl -mt-24 -rotate-2">Skills</div>
@@ -102,6 +102,6 @@
 }
 
 .progress-inner {
-  @apply bg-orange-500 h-4 rounded-full shadow-sm
+  @apply bg-indigo-500 h-4 rounded-full shadow-sm
 }
 </style>

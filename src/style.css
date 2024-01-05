@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .pagesection {
-  @apply w-full py-8 shadow-inner
+  @apply w-full py-8
 }
 
 .section-content {
