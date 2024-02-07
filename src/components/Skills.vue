@@ -54,6 +54,15 @@
       </div>
 
       <div class="name">
+        <font-awesome-icon :icon="['fab', 'swift']" size="xl" class="mr-2 text-orange-500"/><span class="language">Swift</span>
+      </div>
+      <div class="progress">
+        <div class="progress-outer">
+          <div class="progress-inner" style="width: 37%"></div>
+        </div>
+      </div>
+
+      <div class="name">
         <font-awesome-icon :icon="['fas', 'c']" size="xl" class="mr-2 text-blue-600"/><span class="language">C/C++</span>
       </div>
       <div class="progress">
@@ -62,6 +71,14 @@
         </div>
       </div>
 
+      <div class="name">
+        <font-awesome-icon :icon="['fab', 'unity']" size="xl" class="mr-2 text-white"/><span class="language">Unity</span>
+      </div>
+      <div class="progress">
+        <div class="progress-outer">
+          <div class="progress-inner" style="width: 25%"></div>
+        </div>
+      </div>
 
       <div class="name">
         <font-awesome-icon :icon="['fab', 'rust']" size="xl" class="mr-2 text-black"/><span class="language">Rust</span>
